@@ -18,7 +18,6 @@ It is based on [Kickstart Three.js](https://github.com/feremabraz/kickstart-thre
 - Falling Sand
 - Matrix
 - Ray Marching
-- Voronoi Flow
 - Pixel Fire
 - Pixel People
 - Game of Life

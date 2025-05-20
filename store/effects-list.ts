@@ -7,7 +7,6 @@ export const effects = [
   "falling-sand",
   "matrix",
   "ray-marching",
-  "voronoi-flow",
   "pixel-fire",
   "pixel-people",
   "game-of-life",

@@ -15,7 +15,6 @@ export const effectsAtom = atom<string[]>([
   'reaction-diffusion',
   'ray-marching',
   'simple-ray-marching',
-  'voronoi-flow',
   'metaballs',
   'game-of-life',
   'pixel-fire',
