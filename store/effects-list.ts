@@ -1,0 +1,15 @@
+export const effects = [
+  "metaballs",
+  "reaction-diffusion",
+  "crt",
+  "waves",
+  "game-terminal",
+  "falling-sand",
+  "matrix",
+  "ray-marching",
+  "voronoi-flow",
+  "pixel-fire",
+  "pixel-people",
+  "game-of-life",
+  "pixel-landscape",
+];

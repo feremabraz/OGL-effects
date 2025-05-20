@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Kickstart Three.js',
-  description: 'Template for kickstarting 3D toy projects and ideas.',
+  title: 'OGL Effects Showcase',
+  description: 'A collection of interactive, real-time visual effects built with OGL.',
 };
 
 export default function RootLayout({

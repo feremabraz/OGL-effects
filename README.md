@@ -6,6 +6,8 @@ It is based on [Kickstart Three.js](https://github.com/feremabraz/kickstart-thre
 
 ![Preview](README.png)
 
+![Preview](README_2.png)
+
 ## Effects Gallery
 
 - Metaballs
@@ -21,4 +23,3 @@ It is based on [Kickstart Three.js](https://github.com/feremabraz/kickstart-thre
 - Pixel People
 - Game of Life
 - Pixel Landscape
-

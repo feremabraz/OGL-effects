@@ -3,8 +3,7 @@
 import type { Key } from 'react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { useAtom } from 'jotai';
-import { effectsAtom } from '@/store/effects';
+import { effects } from '@/store/effects-list';
 
 function formatEffectName(name: string) {
   return name
@@ -20,9 +19,6 @@ interface EffectsListProps {
 }
 
 export function EffectsList({ className }: EffectsListProps) {
-  const [{ data: effects, isLoading, error }] = useAtom(effectsAtom);
-  if (isLoading) return <div className="text-center py-10">Loading effects…</div>;
-  if (error) return <div className="text-center py-10 text-red-500">Error loading effects</div>;
   return (
     <div
       className={clsx(
@@ -30,7 +26,7 @@ export function EffectsList({ className }: EffectsListProps) {
         className
       )}
     >
-      {effects?.map((effect: Key) => (
+      {effects.map((effect: Key) => (
         <Button key={effect} className="h-auto py-4 px-6">
           <Link href={`/effects/${effect}`}>
             <div className="flex flex-col items-center">
