@@ -1,21 +1,24 @@
-# Kickstart Three.js
+# OGL Effects Showcase
 
-Next.js template with the typical dependencies that I prefer.
+A collection of interactive, real-time visual effects built with [OGL](https://github.com/oframe/ogl). 
 
-I use it to kickstart 3D toy projects and ideas.
+It is based on [Kickstart Three.js](https://github.com/feremabraz/kickstart-threejs) so I can be sure they work well in a potentialy large project (no lag and so on).
 
 ![Preview](README.png)
 
-For a non-3D project, see [Kickstart Basic](https://github.com/feremabraz/kickstart-basic).
+## Effects Gallery
 
-## Content
-
-- Jotai
-- Motion
-- Zod
-- Biome
-- Shadcn with lint fixes according to Biome.
-- Three.js
-- React Three Fiber
-- React Drei
+- Metaballs
+- Reaction-Diffusion
+- CRT/Video Distortion
+- Waves
+- Game Terminal
+- Falling Sand
+- Matrix
+- Ray Marching
+- Voronoi Flow
+- Pixel Fire
+- Pixel People
+- Game of Life
+- Pixel Landscape
 

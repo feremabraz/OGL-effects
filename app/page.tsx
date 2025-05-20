@@ -1,7 +1,14 @@
 import { AppSidebar } from '@/components/app-sidebar';
 import { SiteHeader } from '@/components/site-header';
 import { SidebarInset, SidebarProvider } from '@/components/ui/sidebar';
-import { ThreeDScene } from '@/components/3d-scene';
+import { EffectsList } from '@/components/effects-list';
+
+const formatEffectName = (name: string) => {
+  return name
+    .split('-')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+};
 
 export default function Home() {
   return (
@@ -9,13 +16,7 @@ export default function Home() {
       <AppSidebar variant="inset" />
       <SidebarInset className="h-full flex flex-col">
         <SiteHeader />
-        <div className="flex flex-1 flex-col h-full">
-          <div className="@container/main flex flex-1 flex-col gap-2 h-full">
-            <div className="flex flex-col gap-4 md:gap-6 h-full">
-              <ThreeDScene />
-            </div>
-          </div>
-        </div>
+        <EffectsList className="mt-12" />
       </SidebarInset>
     </SidebarProvider>
   );

@@ -147,8 +147,8 @@ function SceneControls() {
 
   return (
     <div className="absolute bottom-5 left-0 right-0 flex justify-center gap-4">
-      <Button 
-        variant="outline" 
+      <Button
+        variant="outline"
         onClick={() => setAutoRotate(!autoRotate)}
         className="bg-white/10 backdrop-blur-md text-white shadow-lg hover:bg-white/20 border-none"
       >
